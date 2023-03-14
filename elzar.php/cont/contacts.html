@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+</head>
+<body>
+
+    <div class="content">
+
+        <p><h2> КОНТАКТЫ</h2></p>
+          
+
+            <form action="cont/formdata.php" method="POST" enctype="multipart/form-data" name="form" id="form">
+          		<div class="contact_email">
+					<label for="contact_name">
+						&nbsp;Введите ваше имя:
+					</label>
+					<br>
+					<input type="text" name="name" id="contact_name" size="30" class="inputbox" value="">
+					<br>
+					<label id="contact_emailmsg" for="contact_email">
+						&nbsp;E-mail адрес:
+					</label>
+					<br>
+					<input type="text" id="contact_email" name="email" size="30" value="" class="inputbox required validate-email" maxlength="100">
+					<br>
+					<label for="contact_subject">
+						&nbsp;Тема сообщения:
+					</label>
+					<br>
+					<input type="text" name="subject" id="contact_subject" size="30" class="inputbox" value="">
+					<br><br>
+					<label id="contact_textmsg" for="contact_text" class="invalid">
+						&nbsp;Введите текст вашего сообщения:
+					</label>
+					<br>
+					<textarea cols="50" rows="10" name="text" id="contact_text" class="inputbox required invalid"></textarea>
+								<br>
+					<br>
+					<button class="button validate" type="submit">Отправить</button>
+				</div>
+             </form>
+    </div>
+
+</body>
+</html>

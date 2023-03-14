@@ -1,0 +1,11 @@
+.contentMyDog {
+    border-bottom: solid 3px #C7D4E1;
+    margin: 26px 29px 12px 47px;
+    padding-bottom: 10px;
+}
+.contentMyDog p {
+    text-indent: 40px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+

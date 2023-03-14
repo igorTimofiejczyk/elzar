@@ -1,0 +1,245 @@
+@charset "UTF-8";
+/* Reset =================================================== */
+body div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img,
+ins, kbd, q, samp, small, strong, sub, sup, var, b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td, td img {
+    vertical-align: top;
+}
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+ul {
+    list-style:none;
+}
+/* Help Styles =================================================== */
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+    width: 0; height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+.inblock {
+    display: inline-block;
+    vertical-align: top;
+}
+.hidden {
+    display: none;
+}
+.fl-left { float: left; }
+.fl-right { float: right; }
+/* Typography =================================================== */
+html, body {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{font-size: 32px;}
+h2{font-size: 24px;}
+h1, h2 {padding: 10px 0;}
+/*Common style =================================================== */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 17px;
+    background: #EAEAEA;
+}
+.wrapper{
+    width: 800px;
+    margin:35px auto;
+    background: #fff;
+    box-shadow: 0px 1px 3px #ddd;
+    -webkit-box-shadow: 0px 1px 3px #ddd;
+    -o-box-shadow: 0px 1px 3px #ddd;
+    -moz-box-shadow: 0px 1px 3px #ddd;
+    overflow: hidden;
+}
+.b3radius{
+    border-radius: 5px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+}
+.header {
+    background: transparent url(../images/emb3.png) 0 0 no-repeat;
+    width: 100%;
+    height: 201px;
+    border-bottom: solid 3px #C7D4E1;
+    position:relative;
+}
+.inner-header {
+    position:absolute;
+        left:0; bottom:0;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color:#fff;
+    padding:20px;
+    background-color:rgba(0,0,0,.3);
+}
+.inner-header p {font-size: 14px;}
+/*===================================================*/
+.menu{
+    display: block;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    list-style: none;
+    border-top: 1px solid #868686;
+    border-bottom: 1px solid #868686;
+}
+.menu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+  
+}
+.last {
+    border-right: none !important;
+    padding: 10px 19px !important;
+}
+.first{
+border-top: solid 1px #868686;
+}
+
+.menu ul li a {
+float: none;
+position: relative;
+border-left: solid 1px #868686;
+border-bottom: solid 1px #868686;
+
+text-align: center;
+}
+.Pull-down1 {
+
+right: 27px;
+width: 147px;
+
+}
+.Pull-down2 {
+
+right: 12px;
+width : 154px;
+}
+
+
+
+.menu li a {
+    display: block;
+    padding: 10px 24px;;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #c5c5c5;
+    border-right: 1px solid #868686;
+    background: #fff;
+}
+.menu a:hover {
+    background: #c5c5c5;
+    color: #837e7e;
+    text-decoration:none;
+}
+/*----- скрывает вложенный список--*/
+.menu ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+/*-----отбражает вложенный список при наведении мыши--*/
+.menu li:hover>ul {
+   display: block;
+   width: 140px;
+}
+/*=============================================================*/
+.content {
+    border-bottom: solid 3px #C7D4E1;
+    margin: 26px 29px 12px 47px;
+    padding-bottom: 10px;
+}
+.content p {
+    text-indent: 40px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+
+
+#img1 {
+border: 3px solid #C7D4E1;
+vertical-align: middle;
+margin:  10px;
+}
+
+.img-link {
+    display: block;
+}
+.img-link img {
+    margin: 20px 15px 12px 30px;
+    border: 2px solid #C7D4E1;
+}
+.mail {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

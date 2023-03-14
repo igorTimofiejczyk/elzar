@@ -1,0 +1,41 @@
+.contentbreed {
+    border-bottom: solid 3px #C7D4E1;
+    margin: 26px 29px 12px 47px;
+    padding-bottom: 10px;
+}
+.contentbreed p {
+    text-indent: 40px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    text-align: justify;
+}
+.contentbreed p1 {
+    text-indent: 0px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    text-align: justify;
+}
+.contentbreed table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 60%;
+    margin: auto;
+}    
+.contentbreed table1 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 100px;
+
+}    
+
+.center {
+	display:block; 
+	margin:0px 169px;
+	border: 0;
+}
+.center1 {
+	display:block; 
+	margin:0px 260px;
+	border: 0;
+}
