@@ -178,13 +178,13 @@ width : 154px;
     color: #837e7e;
     text-decoration:none;
 }
-/*----- скрывает вложенный список--*/
+/*----- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ--*/
 .menu ul{
     display: none;
     position: absolute;
     top: 100%;
 }
-/*-----отбражает вложенный список при наведении мыши--*/
+/*-----пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ--*/
 .menu li:hover>ul {
    display: block;
    width: 140px;
@@ -220,8 +220,47 @@ margin:  10px;
     text-decoration: none;
     color: #fff;
 }
-
-
+.developers{ 
+    margin: 0px 0px 0px 40px;
+    padding-bottom: 10px;}
+.developers p{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 7pt;  
+	color: #C7D4E1;
+}
+    /* РЎС‚РёР»Рё РґР»СЏ РЅР°СЃС‚РѕР»СЊРЅС‹С… РєРѕРјРїСЊСЋС‚РµСЂРѕРІ */
+.desktop {
+    width: 800px;
+    margin: 0 auto;
+}
+      
+/* .desktop img {
+    float: left;
+    margin-right: 20px;
+} */
+      
+/* РЎС‚РёР»Рё РґР»СЏ РїР»Р°РЅС€РµС‚РѕРІ */
+@media only screen and (max-width: 768px) {
+    .desktop {
+        width: 100%;
+        margin: 0;
+    }
+        
+    .desktop img {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+      
+/* РЎС‚РёР»Рё РґР»СЏ РјРѕР±РёР»СЊРЅС‹С… СѓСЃС‚СЂРѕР№СЃС‚РІ */
+    @media only screen and (max-width: 480px) {
+    .desktop img {
+        display: none;
+    }
+}
 
 
 
